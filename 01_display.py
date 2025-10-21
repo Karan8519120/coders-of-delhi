@@ -16,5 +16,5 @@ def display_users(data):
         print(f"{page['id']}: {page['name']}")
 
 # Load and display the data
-data = load_data("data.json")
+data = load_data("01_data.json")
 display_users(data)
